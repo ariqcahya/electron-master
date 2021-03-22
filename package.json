@@ -1,20 +1,20 @@
 {
-  "name": "master-electron",
+  "name": "electron-master",
   "version": "1.0.0",
-  "description": "Master Electron Course Code",
+  "description": "Electron Master - Starter Electron untuk Pemrograman GUI",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "watch": "nodemon --exec electron .",
     "reset": "git reset --hard"
   },
-  "repository": "https://github.com/stackacademytv/master-electron",
+  "repository": "https://github.com/ariqcahya/electron-master",
   "keywords": [
     "Electron",
-    "Master Electron",
-    "demo"
+    "Electron Starter",
+    "Pemrograman GUI"
   ],
-  "author": "GitHub, Stackacademytv",
+  "author": "GitHub, Ariq Cahya Wardhana",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^9.0.0",

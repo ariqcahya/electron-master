@@ -1,19 +1,5 @@
 // Modules
 const {app, BrowserWindow} = require('electron')
-const colors = require('colors')
-
-console.log(colors.rainbow("Hello Pemrograman GUI"))
-
-const bcrypt = require('bcrypt');
-const saltRounds = 10;
-const myPlaintextPassword = 'pemrogramangui';
-const someOtherPlaintextPassword = 'not_bacon';
-
-bcrypt.hash(myPlaintextPassword, saltRounds, function(err, hash) {
-  // Store hash in your password DB.
-  console.log(hash)
-});
-
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
